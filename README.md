@@ -1,4 +1,4 @@
-# &lt;geolink-chronos&gt;
+# geolink-chronost
 
 > A simple Dockerfile for CHRONOS RDF graphs
 
