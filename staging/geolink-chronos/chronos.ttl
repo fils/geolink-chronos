@@ -1,0 +1,136 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix chronos:<http://chronos.org/voc/1/> .
+
+chronos:revision_no rdf:type skos:Concept;
+    skos:prefLabel "Age Model Revision";
+    skos:altLabel "revision_no".
+
+chronos:age rdf:type skos:Concept;
+    skos:prefLabel "Age";
+    skos:altLabel "age".
+
+chronos:depth rdf:type skos:Concept;
+    skos:prefLabel "Depth";
+    skos:altLabel "depth".
+
+chronos:fossil_group rdf:type skos:Concept;
+    skos:prefLabel "Fossil Group";
+    skos:altLabel "fossil_group";
+    skos:definition "The fossil group of the taxa occuring in the sample.".
+
+chronos:genus rdf:type skos:Concept;
+    skos:prefLabel "Genus";
+    skos:altLabel "genus".
+
+chronos:hole_id rdf:type skos:Concept;
+    skos:prefLabel "Hole ID";
+    skos:altLabel "hole_id";
+    skos:definition "The ID of the hole in Neptune.".
+
+chronos:hole rdf:type skos:Concept;
+    skos:prefLabel "Hole";
+    skos:altLabel "hole";
+    skos:sameAs <http://opencoredata.org/voc/1/hole> ;
+    skos:definition "The hole, usually a letter starting at A and progressing".
+
+chronos:latitude rdf:type skos:Concept;
+    skos:prefLabel "Latitude";
+    skos:altLabel "latitude";
+    skos:definition "The latitude (in decimal degrees) of the hole that the sample was taken from.".
+
+chronos:leg rdf:type skos:Concept;
+    skos:prefLabel "Leg";
+    skos:altLabel "leg";
+    skos:sameAs <http://opencoredata.org/voc/1/leg> ;
+    skos:definition "The leg or expedition.  Usually a numeric but most expeditions also have nemonic titles".
+
+chronos:longitude rdf:type skos:Concept;
+    skos:prefLabel "Longitude";
+    skos:altLabel "longitude";
+    skos:definition "The longitude (in decimal degrees) of the hole that the sample was taken from.".
+
+chronos:max_age rdf:type skos:Concept;
+    skos:prefLabel "Maximum Age";
+    skos:altLabel "max_age".
+
+chronos:meters_penetrated rdf:type skos:Concept;
+    skos:prefLabel "Meters Penetrated";
+    skos:altLabel "meters_penetrated";
+    skos:definition "The number of meters penetrated.".
+
+chronos:meters_recovered rdf:type skos:Concept;
+    skos:prefLabel "Meters Recovered";
+    skos:altLabel "meters_recovered";
+    skos:definition "The number of meters recovered.".
+
+chronos:min_age rdf:type skos:Concept;
+    skos:prefLabel "Minimum Age";
+    skos:altLabel "min_age".
+
+chronos:ocean_code rdf:type skos:Concept;
+    skos:prefLabel "Ocean";
+    skos:altLabel "ocean_code";
+    skos:definition "The ocean where the hole is located.".
+
+chronos:pmag_flag rdf:type skos:Concept;
+    skos:prefLabel "Paleo Mag";
+    skos:altLabel "pmag_flag".
+
+chronos:sample_age_ma rdf:type skos:Concept;
+    skos:prefLabel "Sample Age";
+    skos:altLabel "sample_age_ma";
+    skos:definition "The age of the sample.".
+
+chronos:sample_depth_mbsf rdf:type skos:Concept;
+    skos:prefLabel "Sample Depth";
+    skos:altLabel "sample_depth_mbsf";
+    skos:definition "The depth of the sample.".
+
+chronos:sample_id rdf:type skos:Concept;
+    skos:prefLabel "Sample ID";
+    skos:altLabel "sample_id";
+    skos:definition "The id of the sample.".
+
+chronos:site_hole rdf:type skos:Concept;
+    skos:prefLabel "Site Hole";
+    skos:altLabel "site_hole";
+    skos:definition "The site hole in Neptune".
+
+chronos:site rdf:type skos:Concept;
+    skos:prefLabel "Site";
+    skos:altLabel "site";
+    skos:sameAs <http://opencoredata.org/voc/1/site> ;
+    skos:definition "The site.".
+
+chronos:species rdf:type skos:Concept;
+    skos:prefLabel "Species";
+    skos:altLabel "species".
+
+chronos:subgenus rdf:type skos:Concept;
+    skos:prefLabel "Subgenus";
+    skos:altLabel "subgenus".
+
+chronos:subspecies rdf:type skos:Concept;
+    skos:prefLabel "Subspecies";
+    skos:altLabel "subspecies".
+
+chronos:taxon_abundance rdf:type skos:Concept;
+    skos:prefLabel "Taxon Abundance";
+    skos:altLabel "taxon_abundance";
+    skos:definition "The abundance of the taxon within the sample.".
+
+chronos:taxon rdf:type skos:Concept;
+    skos:prefLabel "Taxonname";
+    skos:altLabel "taxon";
+    skos:definition "Thename of the taxon occurring in the sample.".
+
+chronos:water_depth rdf:type skos:Concept;
+    skos:prefLabel "Water Depth";
+    skos:altLabel "water_depth";
+    skos:definition "The water depth of the hole that the sample was taken from.".
+
