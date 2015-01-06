@@ -1,9 +1,9 @@
-# geolink-chronost
+# geolink-chronos
 
-> A simple Dockerfile for CHRONOS RDF graphs
+> A simple Dockerfile for CHRONOS Neptune RDF graphs
 
 ## Background
-This is a simple profe of concept repo.  It uses the soilandreyes/virtuoso-docker Dockerfile and RDF from the CRHONOS Neptune 
+This is a simple proof of concept repo.  It uses the soilandreyes/virtuoso-docker Dockerfile and RDF from the CRHONOS Neptune 
 database.  The graphs located in staging/geolink-chronos are part of the GeoLink effort.  This is a first pass at using some 
 of the sample patterns that can be found at http://schema.geo-link.org/.  
 
